@@ -100,3 +100,147 @@
   color: #9a54bc;
   cursor: pointer;
 }
+
+.elipse-container {
+  margin-top: 250px;
+}
+
+.all-elipse-with-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.all-elipse-with-btn img {
+  position: absolute;
+}
+
+.small-elipse {
+  top: -160px;
+}
+
+.rectangle {
+  top: -150px;
+}
+
+.collab-word {
+  top: -45px;
+}
+
+.elipse-btn {
+  position: absolute;
+  bottom: -140px;
+  padding: 5px 15px;
+  border: none;
+  border: 2px solid #9a54bc;
+  background-color: #fff;
+  color: #9a54bc;
+  border-radius: 5px;
+}
+
+.five-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 300px;
+  gap: 50px;
+}
+
+.five-icons-container > h2 {
+  font-size: 36px;
+}
+
+.five-icon-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.five-icon-container > img {
+  width: 100px;
+}
+
+.how-help-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+  gap: 50px;
+}
+
+.para-phone-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.para-container {
+  width: 50%;
+}
+
+.how-help-bnts {
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  gap: 5px;
+  padding: 0 2px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.72);
+}
+.how-help-bnts button {
+  width: 50%;
+  padding: 6px 0;
+  border: none;
+  background-color: transparent;
+}
+
+.vendor-app-btn:hover {
+  background-color: #60267f;
+  border: 2px solid #9a54bc;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.supervision-btn:hover {
+  background-color: #60267f;
+  border: 2px solid #9a54bc;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.all-text-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.text-box {
+  width: 70%;
+  background-color: #f2f2f2;
+  padding: 20px 50px;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.img-container {
+  width: 50%;
+  margin-left: 100px;
+}
+
+.img-container img {
+  width: 200px;
+}
