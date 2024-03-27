@@ -244,3 +244,112 @@
 .img-container img {
   width: 200px;
 }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 150px;
+}
+
+.video-para {
+  width: 50%;
+  text-align: center;
+}
+
+.projects-done-container {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.project-done-card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.project-done-card img {
+  width: 300px;
+}
+
+.project-done-para-text,
+.project-done-para-number {
+  margin-left: 10px;
+}
+.project-done-para-text {
+  color: #60267f;
+}
+.project-done-para-number {
+  font-weight: 600;
+}
+
+.price-container {
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.price-header {
+  font-size: 36px;
+}
+
+.price-para {
+  font-size: 14px;
+  color: #a79d9d;
+}
+
+.price-discount-container {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.price-monthly {
+  color: #a79d9d;
+  font-size: 14px;
+}
+
+.price-yearly {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.price-discount {
+  background-color: #ffe87a;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 2px 3px;
+}
+
+.big-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.big-card {
+  border: 0.5px solid #aaa;
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+}
