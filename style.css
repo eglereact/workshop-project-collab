@@ -347,9 +347,98 @@
 }
 
 .big-card {
-  border: 0.5px solid #aaa;
+  border: 0.3px solid #aaaaaa6f;
   padding: 20px;
-  width: 300px;
-  height: 500px;
+  width: 200px;
+  height: 350px;
   border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.big-card span {
+  font-weight: 700;
+}
+.big-card h2 {
+  font-size: 28px;
+}
+
+.big-card button {
+  padding: 10px 15px;
+  border: none;
+  border: 2px solid #2b0236;
+  background-color: #fff;
+  color: #2b0236;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.big-card ul li {
+  list-style: none;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 0 0 0 5px;
+}
+
+.big-card ul li::marker {
+  content: "▶";
+}
+
+.big-card-three {
+  background-color: #56e6a5;
+  display: flex;
+  justify-content: space-between;
+}
+.big-card-three h2 {
+  width: 50%;
+}
+
+.big-card-three p {
+  font-size: 12px;
+}
+
+.review-container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+.stars {
+  width: 200px;
+}
+
+.review-container p {
+  width: 700px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.review-para-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.review-para-container::after {
+  content: "\F138";
+  font-family: bootstrap-icons;
+  font-size: 40px;
+}
+.review-para-container::before {
+  content: "\F12F";
+  font-family: bootstrap-icons;
+  font-size: 40px;
+}
+
+.review-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
